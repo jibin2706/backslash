@@ -10,6 +10,7 @@ body {
     font-size: 15px;
     font-weight: normal;
     color: hsl(0, 0%, 90%);
+    max-width: 100vw;
 }
 
 @font-face {
@@ -68,6 +69,7 @@ body {
     margin-bottom: 0;
     font-size: 30px;
     font-weight: 800;
+    
 }
 
 .header-bar .site-branding a {
@@ -185,6 +187,9 @@ body {
     padding-left: 40px;
 }
 
+.site-navigation ul li a :hover{
+    color: #00a0bc;
+}
 @media screen and (min-width: 992px) {
     .header-bar .site-branding {
         margin-left: 35px;
@@ -196,6 +201,7 @@ body {
         right: auto;
         height: auto;
         padding-right: 35px;
+        width: 100%;
         background: transparent;
     }
 
@@ -231,7 +237,7 @@ body {
 # hero
 -----------------------------------------------------------*/
 .hero-content {
-    padding: 220px 0;
+    padding: 100px 0;
     background: url("images/cover.jpg") no-repeat;
     background-size: cover;
 }
@@ -252,7 +258,6 @@ body {
 }
 
 .hero-content .entry-header .entry-meta-date {
-    position: absolute;
     width: 100%;
     top: 20px;
     font-family: 'Poppins', sans-serif;
@@ -276,11 +281,11 @@ body {
 ## countdown
 ------------------------------------------------------------*/
 .countdown {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .countdown-holder {
-    min-width: 150px;
+    /* min-width: 150px; */
     margin-bottom: 30px;
 }
 
@@ -306,7 +311,7 @@ body {
 ## hero-content entry-footer
 ------------------------------------------------------------*/
 .hero-content .entry-footer {
-    margin-top: 125px;
+   margin-top: 20px;
     text-align: center;
 }
 
@@ -328,7 +333,7 @@ body {
 # The Lineup Artists - Headliners
 ------------------------------------------------------------*/
 .content-section {
-    min-height: 4640px;
+    
     width: 100%;
     padding-bottom: 120px;
     background: url("images/middle-cover.jpg") no-repeat;
@@ -1948,7 +1953,10 @@ body {
 }
 
 
-
+.date
+{
+    justify-content:space-evenly;
+}
 
 
 
