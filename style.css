@@ -282,7 +282,7 @@ body {
 @media screen and (max-width: 600px) {
 
     .hero-content .entry-header h2 {
-        font-size: 55px;
+        font-size: 70px;
     }
     .countdown-holder .dday,
     .countdown-holder .dhour,
@@ -296,7 +296,11 @@ body {
     }
 
     .entry-title a {
-        font-size: 26px !important;
+        font-size: 32px !important;
+    }
+
+    .entry-footer a{
+        margin-bottom: 10px !important;
     }
 
 
@@ -353,6 +357,10 @@ body {
 .hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     color: hsl(0, 0%, 0%);
+}
+
+.fab {
+    font-size: 30px;
 }
 
 /*------------------------------------------------------------
