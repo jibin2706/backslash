@@ -239,17 +239,18 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 100px 0;
-    background: url("images/cover.jpg") no-repeat;
+    /* cover image */
+    background: #181818;
     background-size: cover;
 }
 
 .hero-content .entry-header {
-    position: relative;
+    /* position: relative; */
     text-align: center;
 }
 
 .hero-content .entry-header h2 {
-    padding: 50px;
+    padding: 50px 0;
     margin: 0;
     font-family: mountains;
     font-size:120px;
@@ -278,6 +279,29 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+
+    .hero-content .entry-header h2 {
+        font-size: 55px;
+    }
+    .countdown-holder .dday,
+    .countdown-holder .dhour,
+    .countdown-holder .dmin,
+    .countdown-holder .dsec {
+        font-size: 30px !important;
+    }
+
+    .countdown-holder label {
+        font-size: 16px !important;
+    }
+
+    .entry-title a {
+        font-size: 26px !important;
+    }
+
+
+}
+
 /*------------------------------------------------------------
 ## countdown
 ------------------------------------------------------------*/
@@ -296,6 +320,7 @@ body {
 .countdown-holder .dsec {
     display: block;
     font-size: 72px;
+    text-align: center;
     font-weight: 600;
     line-height: 1;
     color: hsl(0, 0%, 100%);
@@ -558,6 +583,10 @@ body {
 @media screen and (min-width: 768px) {
     .the-complete-lineup-artists .artist-single:nth-child(6) {
         margin-top: 0;
+    }
+
+    .entry-header h2{
+        font-size: 100px;
     }
 }
 
@@ -841,7 +870,7 @@ body {
 }
 
 .site-footer .footer-cover-title h2 {
-    font-size: 20vw;
+    font-size: 15vw;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0;
@@ -1229,7 +1258,7 @@ body {
 # tickets-page
 ------------------------------------------------------------*/
 .tickets-page {
-    background: url("images/elements-total-background.jpg") no-repeat;
+    background: #333333;
     width: 100%;
     height: 100%;
 }
@@ -1584,7 +1613,8 @@ body {
 # site-header
 ------------------------------------------------------------*/
 .contact-page .page-header {
-    background: url("images/contact-header-background.jpg") no-repeat;
+    background: #181818;
+    height: 100vh;
 }
 
 .contact-page .main-content {
@@ -1718,7 +1748,8 @@ body {
 }
 
 .elements-page .page-header {
-    background: url("images/elements-header-background.jpg") no-repeat;
+    background:#181818;
+    height: 100vh;
 }
 
 .elements-page .elements-wrap {

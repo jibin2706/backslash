@@ -1,6 +1,6 @@
 .timeline {
-    --uiTimelineMainColor: var(--timelineMainColor, #222);
-    --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+    --uiTimelineMainColor: var(--timelineMainColor,#121213);
+    --uiTimelineSecondaryColor: var(--timelineSecondaryColor, rgb(255, 255, 255));
 
     position: relative;
     padding-top: 3rem;
@@ -137,7 +137,7 @@
 }
 
 .timeline {
-    --timelineMainColor: #4557bb;
+    --timelineMainColor: #181818;
     font-size: 16px;
 }
 
