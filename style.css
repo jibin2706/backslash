@@ -206,6 +206,7 @@ body {
         background: transparent;
     }
 
+
     .site-navigation ul {
         display: flex;
         flex-wrap: wrap;
@@ -234,6 +235,10 @@ body {
     }
 }
 
+#particles-js
+{
+    height: 610px;
+}
 /*------------------------------------------------------------
 # hero
 -----------------------------------------------------------*/
