@@ -7,6 +7,8 @@
     $(".site-navigation").toggleClass("show");
   });
 
+  
+  
   var countdown_date = $(".countdown").data("date");
 
   $(".countdown").countdown(countdown_date, function(event) {
