@@ -7,8 +7,6 @@
     $(".site-navigation").toggleClass("show");
   });
 
-  
-  
   var countdown_date = $(".countdown").data("date");
 
   $(".countdown").countdown(countdown_date, function(event) {
@@ -37,84 +35,6 @@
 
     $(".tab-nav:first-child").trigger("click");
   });
-
-  // Accordion & Toggle
-  $(".accordion-wrap.type-accordion").collapsible({
-    accordion: true,
-    contentOpen: 0,
-    arrowRclass: "arrow-r",
-    arrowDclass: "arrow-d"
-  });
-
-  $(".accordion-wrap .entry-title").on("click", function() {
-    $(".accordion-wrap .entry-title").removeClass("active");
-    $(this).addClass("active");
-  });
-
-  // Circular Progress Bar
-  $("#hard_work")
-    .circleProgress({
-      startAngle: (-Math.PI / 4) * 2,
-      value: 0.75,
-      size: 220,
-      thickness: 3,
-      fill: {
-        gradient: ["#00d1ff", "#1effc5"]
-      }
-    })
-    .on("circle-animation-progress", function(event, progress) {
-      $(this)
-        .find("strong")
-        .html(Math.round(75 * progress) + "<span>%</span>");
-    });
-
-  $("#good_music")
-    .circleProgress({
-      startAngle: (-Math.PI / 4) * 2,
-      value: 0.83,
-      size: 220,
-      thickness: 3,
-      fill: {
-        gradient: ["#00d1ff", "#1effc5"]
-      }
-    })
-    .on("circle-animation-progress", function(event, progress) {
-      $(this)
-        .find("strong")
-        .html(Math.round(83 * progress) + "<span>%</span>");
-    });
-
-  $("#power")
-    .circleProgress({
-      startAngle: (-Math.PI / 4) * 2,
-      value: 0.65,
-      size: 220,
-      thickness: 3,
-      fill: {
-        gradient: ["#00d1ff", "#1effc5"]
-      }
-    })
-    .on("circle-animation-progress", function(event, progress) {
-      $(this)
-        .find("strong")
-        .html(Math.round(65 * progress) + "<span>%</span>");
-    });
-
-  $("#fun_time")
-    .circleProgress({
-      startAngle: (-Math.PI / 4) * 2,
-      value: 1,
-      size: 220,
-      thickness: 3,
-      fill: {
-        gradient: ["#00d1ff", "#1effc5"]
-      }
-    })
-    .on("circle-animation-progress", function(event, progress) {
-      $(this)
-        .find("strong")
-        .html(Math.round(100 * progress) + "<span>%</span>");
-    });
 
   // Counter
   $(".start-counter").each(function() {
