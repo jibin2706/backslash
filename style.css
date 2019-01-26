@@ -251,9 +251,9 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 100px 0;
-    /* cover image */
     background: #181818;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .hero-content .entry-header {
@@ -262,13 +262,18 @@ body {
 }
 
 .hero-content .entry-header h2 {
-    padding: 50px 0;
+    padding: 10px 0 30px 0;
     margin: 0;
     font-family: mountains;
     font-size:120px;
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.hero-content .entry-header h5 {
+    font-size: 40px;
+    font-family: mountains;
 }
 
 .hero-content .entry-header .entry-meta-date {
@@ -303,6 +308,10 @@ body {
         font-size: 30px !important;
     }
 
+    .hero-content .entry-header h5 {
+        font-size: 30px;
+    }
+
     .countdown-holder label {
         font-size: 16px !important;
     }
@@ -314,7 +323,13 @@ body {
     .entry-footer a{
         margin-bottom: 10px !important;
     }
+}
 
+@media screen and (max-width: 475px) {
+    .entry-footer .btn {
+        display: block;
+        width: 100% !important;
+    }
 
 }
 
@@ -364,6 +379,7 @@ body {
     margin-right: 20px;
     color: hsl(0, 0%, 17%);
     font-weight: 600;
+    width: 200px;
 }
 
 .hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
@@ -474,7 +490,7 @@ body {
 .lineup-artists-description .entry-content {
     margin-top: 20px;
     font-size: 15px;
-    color: hsl(0, 0%, 60%);
+    color: hsl(0, 0%, 9%);
     line-height: 2;
 }
 
@@ -1663,7 +1679,7 @@ body {
 }
 
 .contact-page .contact-details .contact-medium .contact-icon img {
-    max-width: 100%;
+    max-width: 78px;
     height: auto;
 }
 
