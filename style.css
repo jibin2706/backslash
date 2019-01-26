@@ -267,7 +267,7 @@ body {
     font-family: mountains;
     font-size:120px;
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -330,6 +330,13 @@ body {
         display: block;
         width: 100% !important;
     }
+
+    .download {
+        display: block;
+        width: 100% !important;
+        margin: 10px;
+    }
+
 
 }
 
@@ -689,6 +696,25 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+.download {
+    text-decoration: none !important;
+    box-shadow: #333333;
+    background: #abffed;
+    padding: 16px 40px;
+    border-radius: 0;
+    margin-right: 20px;
+    color: hsl(0, 0%, 17%);
+    font-weight: 600;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.download:active {
+    transform: scale(0.99);
+    transition-duration: 1s;
+    box-shadow: none;
+}
+
+
 /*------------------------------------------------------------
 # homepage-next-events
 ------------------------------------------------------------*/
@@ -996,21 +1022,6 @@ body {
     padding: 5px 16px;
     font-size: 12px;
     color: hsl(0, 0%, 100%);
-}
-
-/*------------------------------------------------------------
-# site-header
-------------------------------------------------------------*/
-.about-us .site-header {
-}
-
-.about-us .site-header figure {
-    margin: 0;
-    padding: 0;
-}
-
-.about-us .site-header figure img {
-    max-width: 100%;
 }
 
 /*------------------------------------------------------------
@@ -1986,7 +1997,7 @@ body {
     font-weight: 500;
     line-height: 1;
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
