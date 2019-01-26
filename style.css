@@ -244,9 +244,9 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 100px 0;
-    /* cover image */
     background: #181818;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .hero-content .entry-header {
@@ -255,7 +255,7 @@ body {
 }
 
 .hero-content .entry-header h2 {
-    padding: 0 0 30px 0;
+    padding: 10px 0 30px 0;
     margin: 0;
     font-family: mountains;
     font-size:120px;
@@ -316,7 +316,13 @@ body {
     .entry-footer a{
         margin-bottom: 10px !important;
     }
+}
 
+@media screen and (max-width: 475px) {
+    .entry-footer .btn {
+        display: block;
+        width: 100% !important;
+    }
 
 }
 
@@ -366,6 +372,7 @@ body {
     margin-right: 20px;
     color: hsl(0, 0%, 17%);
     font-weight: 600;
+    width: 200px;
 }
 
 .hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
