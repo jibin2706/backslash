@@ -450,6 +450,13 @@ body {
     color: hsl(0, 0%, 0%);
 }
 
+.content-title h2 {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+}
+
 /*------------------------------------------------------------
 ## lineup-artists
 ------------------------------------------------------------*/
@@ -1711,7 +1718,7 @@ body {
 }
 
 .contact-page .get-in-touch {
-    margin-top: 90px;
+    margin-top: 115px;
     padding: 0 15px;
 }
 
@@ -1746,7 +1753,7 @@ body {
 
 .contact-page .get-in-touch .entry-content p {
     font-size: 15px;
-    color: #989898;
+    color: #181818;
     line-height: 2;
     text-align: center;
 }
