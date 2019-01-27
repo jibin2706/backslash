@@ -327,11 +327,6 @@ body {
     }
 }
 
-@media screen and (max-width: 433px){
-     .entry-content p {
-        font-size: 10px;
-       
-    }
 }
 @media screen and (max-width: 475px) {
     .entry-footer .btn {
@@ -1438,7 +1433,7 @@ body {
 
 .contact-page-map {
     width: 100%;
-	margin-top:40px;	
+	margin-top:100px;	
 }
 
 .contact-page-map iframe {
@@ -1460,7 +1455,7 @@ body {
 }
 
 .contact-page .contact-details .contact-medium .contact-icon img {
-    max-width: 78px;
+    max-width: 50px;
     height: auto;
 }
 
