@@ -327,12 +327,19 @@ body {
     }
 }
 
+@media screen and (max-width: 433px){
+     .entry-content p {
+        font-size: 10px;
+       
+    }
+}
 @media screen and (max-width: 475px) {
     .entry-footer .btn {
         display: block;
         width: 100% !important;
     }
 
+    
     .download {
         display: block;
         width: 100% !important;
