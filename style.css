@@ -266,9 +266,8 @@ body {
     margin: 0;
     font-family: mountains;
     font-size:120px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #25ffbf;
 }
 
 .hero-content .entry-header h5 {
@@ -322,6 +321,7 @@ body {
 
     .entry-footer a{
         margin-bottom: 10px !important;
+        
     }
 }
 
