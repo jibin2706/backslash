@@ -461,7 +461,7 @@ body {
 ## lineup-artists
 ------------------------------------------------------------*/
 .lineup-artists {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .lineup-artists .featured-image {
@@ -1678,6 +1678,7 @@ body {
 
 .contact-page-map {
     width: 100%;
+	margin-top:40px;	
 }
 
 .contact-page-map iframe {
