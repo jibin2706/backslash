@@ -1639,3 +1639,15 @@ body {
 .date {
     justify-content:space-evenly;
 }
+
+
+/* Sponsors */
+.sponsors img{
+    width: 200px;
+    margin: auto;
+}
+
+.sponsors h5 {
+    color: #181818;
+}
+
