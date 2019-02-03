@@ -1642,6 +1642,16 @@ body {
 
 
 /* Sponsors */
+.card-img-container {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
 .sponsors img{
     width: 200px;
     margin: auto;
