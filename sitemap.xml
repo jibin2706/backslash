@@ -8,22 +8,22 @@
 
 <url>
   <loc>https://backslashfest.org/</loc>
-  <lastmod>2019-01-27T06:36:33+00:00</lastmod>
+  <lastmod>2019-02-03T06:14:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://backslashfest.org/index.html</loc>
-  <lastmod>2019-01-27T06:36:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://backslashfest.org/events.html</loc>
-  <lastmod>2019-01-27T06:36:33+00:00</lastmod>
+  <lastmod>2019-02-03T06:14:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://backslashfest.org/contact.html</loc>
-  <lastmod>2019-01-27T06:36:33+00:00</lastmod>
+  <lastmod>2019-02-03T06:14:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://backslashfest.org/sponsors.html</loc>
+  <lastmod>2019-02-03T06:14:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
