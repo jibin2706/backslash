@@ -15,6 +15,7 @@ body {
     font-weight: normal;
     color: hsl(0, 0%, 90%);
     max-width: 100vw;
+    overflow: auto;
 }
 
 @font-face {
@@ -1638,3 +1639,15 @@ body {
 .date {
     justify-content:space-evenly;
 }
+
+
+/* Sponsors */
+.sponsors img{
+    width: 200px;
+    margin: auto;
+}
+
+.sponsors h5 {
+    color: #181818;
+}
+
