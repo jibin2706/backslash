@@ -1658,7 +1658,10 @@ body {
     margin: auto;
 }
 
-.sponsors h5 {
+.sponsors h5,
+.sponsors h2 {
+    font-family: Poppins;
+    font-weight: 600;
     color: #181818;
 }
 
